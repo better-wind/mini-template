@@ -1,0 +1,377 @@
+
+@import './common/wptFont.less';
+@import './common/antimate.less';
+
+
+.viewSpan{
+  display: inline;
+}
+
+
+#pagebutton{
+  margin:0;
+  padding: 0;
+  min-height: 100vh;
+  line-height: inherit;
+  text-align: inherit;
+  font-size:inherit;
+  background-color: inherit;
+  border-radius: 0;
+  background-color: #eee;
+  &:after{
+    display: none;
+  }
+  &.button-hover{
+    background-color:inherit;
+    color:inherit;
+    background-color: #eee;
+  }
+}
+
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+
+.border{
+  position:relative;
+}
+.border.horizonBottom:after{
+  left: 0;
+  bottom: 0;
+}
+.border.horizonTop:after {
+    left: 0;
+    top: 0;
+}
+.border.horizonTop:after, .border.horizonBottom:after{
+    width: 100%;
+    height: 1px;
+    transform: scaleY(0.5);
+    -webkit-transform: scaleY(0.5);
+}
+.border:after{
+    position: absolute;
+    content: '';
+    background-color: #D9D9D9;
+}
+
+.border.verticalRight:after {
+    top: 0;
+    right: 0;
+}
+
+.border.verticalLeft:after {
+    top: 0;
+    left: 0;
+}
+
+.border.verticalLeft:after, .border.verticalRight:after {
+    width: 1px;
+    height: 100%;
+    transform: scaleX(0.5);
+    -webkit-transform: scaleX(0.5);
+    }
+
+.supportBanner{
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    text-align: center;
+    height: 98rpx;
+    line-height: 98rpx;
+    font-size: 24rpx;
+    border-top: 1px solid #eaeae8;
+    background-color: #F8F8F8;
+    color: #888;
+}
+
+
+.inline{
+  display:inline;
+}
+.inlineB{
+  display:inline-block;
+}
+
+.btn{
+  width: 92%;
+  color: #FFF;
+  height: 84rpx;
+  border: none;
+  font-size: 32rpx;
+  margin: 40rpx 4% 0;
+  line-height: 84rpx;
+  border-radius: 6rpx;
+  background: #06BC07;
+}
+
+
+// 导航
+
+
+.mainMenu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    background-color: #FCFCFC;
+    border-top: 1px solid #EAEAE8;
+    font-size: 12px;
+    display: flex;
+    .menu_item{
+      width:50%;
+      text-align: center;
+      .wptFi{
+        line-height: 34px;
+        height: 20px;
+        font-size: 26px;
+      }
+      .itemName{
+        line-height: 13px;
+      }
+    }
+}
+
+
+
+
+
+
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+
+// .levels{
+//   background-image: url(http://cdn.weipaitang.com/webApp/images/smallroutine/levels.png?v=1);
+//   background-size:1000%;
+//   background-repeat:no-repeat; 
+// }
+.buyerLevels{
+  background-image: url(http://cdn.weipaitang.com/webApp/images/smallroutine/buyerLevels.png)
+}
+.sellerLevels{
+  background-image: url(http://cdn.weipaitang.com/webApp/images/smallroutine/sellerLevels.png)
+}
+
+.sellStatus{
+  background-image: url(http://cdn.weipaitang.com/webApp/images/smallroutine/sellStatus.png)
+}
+
+.sellerLevel {
+  float: left;
+  width: 28px;
+  height: 15px;
+  background-size: 28px auto;
+  background-repeat: no-repeat;
+  border-radius: 1px;
+  background-image: url(http://cdn.weipaitang.com/webApp/images/smallroutine/sellerLevels.png);
+}
+// .buyerLevel {
+//   background-image: url(http://cdn.weipaitang.com/webApp/images/smallroutine/buyerLevels.png);
+// }
+// .buyerLevel.lv1 {
+//   background-position: 0 0;
+// }
+// .buyerLevel.lv2 {
+//   background-position: 0 -13px;
+// }
+// .buyerLevel.lv3 {
+//   background-position: 0 -26px;
+// }
+// .buyerLevel.lv4 {
+//   background-position: 0 -39px;
+// }
+// .buyerLevel.lv5 {
+//   background-position: 0 -52px;
+// }
+// .buyerLevel.lv6 {
+//   background-position: 0 -65px;
+// }
+// .buyerLevel.lv7 {
+//   background-position: 0 -78px;
+// }
+// .buyerLevel.lv8 {
+//   background-position: 0 -91px;
+// }
+// .buyerLevel.lv9 {
+//   background-position: 0 -114px;
+// }
+// .buyerLevel.lv10 {
+//   background-position: 0 -127px;
+// }
+// .buyerLevel.lv11 {
+//   background-position: 0 -140px;
+// }
+// .buyerLevel.lv12 {
+//   background-position: 0 -153px;
+// }
+// .buyerLevel.lv13 {
+//   background-position: 0 -166px;
+// }
+// .buyerLevel.lv14 {
+//   background-position: 0 -179px;
+// }
+// .buyerLevel.lv15 {
+//   background-position: 0 -192px;
+// }
+
+
+.sellerLevel.lv1{
+  background-position: 0 0;
+}
+.sellerLevel.lv2{
+  background-position: 0 -15px;
+}
+.sellerLevel.lv3{
+  background-position: 0 -30px;
+}
+.sellerLevel.lv4{
+  background-position: 0 -45px;
+}
+.sellerLevel.lv5{
+  background-position: 0 -60px;
+}
+.sellerLevel.lv6{
+  background-position: 0 -75px;
+}
+.sellerLevel.lv7{
+  background-position: 0 -90px;
+}
+.sellerLevel.lv8{
+  background-position: 0 -105px;
+}
+.sellerLevel.lv9{
+  background-position: 0 -120px;
+}
+.sellerLevel.lv10{
+  background-position: 0 -135px;
+}
+.sellerLevel.lv11{
+  background-position: 0 -150px;
+}
+.sellerLevel.lv12{
+  background-position: 0 -165px;
+}
+.sellerLevel.lv13{
+  background-position: 0 -180px;
+}
+.sellerLevel.lv14{
+  background-position: 0 -195px;
+}
+.sellerLevel.lv15{
+  background-position: 0 -210px;
+}
+.border{
+  position:relative;
+}
+.border.horizonBottom:after{
+  left: 0;
+  bottom: 0;
+}
+.border.horizonTop:after {
+    left: 0;
+    top: 0;
+}
+.border.horizonTop:after, .border.horizonBottom:after{
+    width: 100%;
+    height: 1px;
+    transform: scaleY(0.5);
+    -webkit-transform: scaleY(0.5);
+}
+.border:after{
+    position: absolute;
+    content: '';
+    background-color: #D9D9D9;
+}
+
+.border.verticalRight:after {
+    top: 0;
+    right: 0;
+}
+
+.border.verticalLeft:after {
+    top: 0;
+    left: 0;
+}
+
+.border.verticalLeft:after, .border.verticalRight:after {
+    width: 1px;
+    height: 100%;
+    transform: scaleX(0.5);
+    -webkit-transform: scaleX(0.5);
+    }
+
+.supportBanner{
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    text-align: center;
+    height: 98rpx;
+    line-height: 98rpx;
+    font-size: 24rpx;
+    border-top: 1px solid #eaeae8;
+    background-color: #F8F8F8;
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

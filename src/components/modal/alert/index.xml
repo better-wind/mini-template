@@ -1,0 +1,19 @@
+<!-- <template name="price"> -->
+<view class="alert">
+	<view class="fixednumMask" bindtap="closeaboutmultbtn">
+	</view>
+	<view class="dialog" animation="{{outbidanimationData}}">
+
+		<view style="width:90%;padding:20rpx;text-align:center;font-size:28rpx;margin:auto;color:$424242;">
+			<rich-text nodes="{{alertshowText}}" bindtap="tap"></rich-text>
+		</view>
+
+
+		<view class="btns">
+			<view class="btn-confirm" bindtap="closeaboutmultbtn">知道了</view>
+		</view>
+	</view>
+
+</view>
+<!-- </template> -->
+

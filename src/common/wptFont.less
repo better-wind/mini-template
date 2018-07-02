@@ -1,0 +1,390 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('//cdn.weipaitang.com/res/js/plugin/fonts/wptFontMain.ttf') format('truetype')
+}
+
+
+.wptFM {
+    font-family: "iconfont" !important;
+    min-width: 1em;
+    color: inherit;
+    font-size: inherit;
+    font-style: normal;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*图标大小比例*/
+.fi-stack {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.fi-stack-0x6,
+.fi-stack-0x8,
+.fi-stack-1x,
+.fi-stack-1x2,
+.fi-stack-1x5,
+.fi-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    line-height: inherit;
+}
+.fi-stack-0x6 {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+.fi-stack-0x8 {
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+.fi-stack-1x2 {
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+.fi-stack-1x5 {
+    transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+.fi-stack-1x {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform-origin: center;
+    -webkit-transform-origin: center;
+}
+.fi-stack-2x {
+    font-size: 18px;
+}
+.fi-size-140{
+    font-size: 16px;
+}
+.fi-size-160{
+    font-size: 16px;
+}
+.fi-size-200{
+    font-size: 18px;
+}
+
+/*颜色*/
+.fi-color-fff {color: #fff;}
+.fi-ffb123{color: #ffb123;}
+.fi-169ada{color: #169ada;}
+.fi-c8c8c8{color: #c8c8c8;}
+.fi-ffad18{color: #ffad18;}
+.fi-2fcbc0{color: #2fcbc0;}
+.fi-677fb1{color: #677fb1;}
+.fi-ab2212{color: #ab2212;}
+.fi-ffab47{color: #ffab47;}
+.fi-ec6066{color: #ec6066;}
+.fi-00be1a{color: #00BE1A;}
+.fi-ffd800{color: #ffd800;}
+
+/*旋转*/
+.rotate45{transform: rotate(45deg); -webkit-transform: rotate(45deg) }
+.rotate90{transform: rotate(90deg); -webkit-transform: rotate(90deg) }
+.rotate180{transform: rotate(180deg); -webkit-transform: rotate(180deg) }
+.rotate270{transform: rotate(270deg); -webkit-transform: rotate(270deg) }
+
+/******买家中心******/
+/*.icon-fm-aftersale:before { content: "\e656"; }*/
+.icon-fm-notrate:before { content: "\e655"; }
+.icon-fm-notreceipt:before { content: "\e654"; }
+/*.icon-fm-waitdelivery:before { content: "\e653"; }*/
+.icon-fm-notpaid:before { content: "\e652"; }
+.icon-fm-trace:before { content: "\e651"; }
+/*.icon-fm-balance:before { content: "\e650"; }*/
+.icon-fm-ident:before { content: "\e64f"; }
+.icon-fm-newsale:before { content: "\e64e"; }
+.icon-fm-exhibits:before { content: "\e64d"; }
+.icon-fm-represent:before { content: "\e64c"; }
+.icon-fm-message:before { content: "\e65c"; }
+.icon-fm-im:before { content: "\e70c"; }
+
+/******卖家中心******/
+.icon-fm-spreadcenter:before { content: "\e660"; }
+.icon-fm-balance:before { content: "\e65f"; }  /* 公用钱包*/
+.icon-fm-wptlearn:before { content: "\e65e"; }/* 微拍堂大学*/
+.icon-fm-buyercenter:before { content: "\e62c"; }  /* 买家中心*/
+.icon-fm-sellerexhibits:before { content: "\e65d"; }
+.icon-fm-eye:before { content: "\e65d"; }
+/*.icon-fm-salecs:before { content: "\e65c"; }*/
+.icon-fm-sendSaleMsg:before { content: "\e65b"; }
+.icon-fm-pd:before { content: "\e65a"; }
+.icon-fm-salecontent:before { content: "\e659"; }
+/*.icon-fm-buyercenter:before { content: "\e658"; }*/
+.icon-fm-sellextend:before { content: "\e657"; }
+.icon-fm-jewel:before { content: "\e63e"; }  /*多个   钻石*/
+.icon-fm-bankcard:before { content: "\e68a"; }
+
+/****/
+.icon-fm-childusers:before { content: "\e64a"; }
+.icon-fm-salereport:before { content: "\e649"; }
+.icon-fm-articlespread:before { content: "\e648"; }
+.icon-fm-complainesse:before { content: "\e664"; } /*投诉实体*/
+.icon-fm-complain:before { content: "\e647"; } /*投诉线条*/
+/*.icon-fm-chortcutdelivery:before { content: "\e646"; }*/
+.icon-fm-extendident:before { content: "\e645"; }
+.icon-fm-redpack:before { content: "\e644"; }
+/*.icon-fm-childusers:before { content: "\e643"; }*/
+.icon-fm-mainactivity:before { content: "\e611"; }
+.icon-fm-water:before { content: "\e610"; }
+.icon-fm-salesec:before { content: "\e60f"; }
+/*.icon-fm-childusers:before { content: "\e60e"; }*/
+.icon-fm-sellcategory:before { content: "\e60d"; }
+/*.icon-fm-childusers:before { content: "\e60c"; }*/
+.icon-fm-sealcategory:before { content: "\e60b"; } /* 对话框线条*/
+.icon-fm-salereports:before { content: "\e62a"; }
+.icon-fm-showcase:before { content: "\e650"; }  /*橱窗*/
+.icon-fm-account:before { content: "\e64b"; } /*对账单*/
+/*.icon-fm-promotionReward:before { content: "\e645"; } !*推广有礼*!*/
+.icon-fm-gift:before { content: "\e645"; } /* 抽奖*/
+.icon-fm-notexistblacklisticon:before { content: "\e638"; } /* 没有屏蔽用户*/
+.icon-fm-nogoods:before{content:"\e63b";}
+.icon-fm-packbox:before{content: "\e68e"} /* 包装盒*/
+.icon-fm-unitprice:before{content: "\e70e"} /* 客单价三十天*/
+.icon-fm-invitegift:before{content: "\e603"} /* 邀请有礼*/
+
+/******余额******/
+.icon-fm-recharge:before { content: "\e614"; } /*钱包*/
+.icon-fm-withdraw:before { content: "\e617"; }
+/*.icon-fm-withdraw:before { content: "\e615"; }*/
+.icon-fm-paysafe:before { content: "\e61a"; }
+/*.icon-fm-coin:before { content: "\e616"; }*/
+.icon-fm-coupon:before { content: "\e619"; }
+.icon-fm-coupon-thin:before { content: "\e679"; }
+.icon-fm-bail:before { content: "\e618"; }
+.icon-fm-bailconsume:before { content: "\e68b"; }/*消保金消耗记录*/
+
+/******发现页******/
+.icon-fm-alarmclock:before { content: "\e641"; }
+.icon-fm-expert:before { content: "\e63f"; }
+.icon-fm-collector:before { content: "\e691"; }
+/*.icon-fm-recommend:before { content: "\e63e"; }*/
+.icon-fm-qa:before { content: "\e63d"; }
+
+/*****导航******/
+.icon-fm-my:before { content: "\e6b1"; }
+.icon-fm-myed:before { content: "\e6ad"; }
+.icon-fm-index:before { content: "\e6af"; }
+.icon-fm-indexed:before { content: "\e6ac"; }
+.icon-fm-category:before { content: "\e6a9";}
+.icon-fm-categoryed:before { content: "\e6ab"; }
+.icon-fm-publish:before { content: "\e6a8"; }
+.icon-fm-published:before { content: "\e6aa";}
+.icon-fm-find:before { content: "\e6a6"; }
+.icon-fm-finded:before { content: "\e642";}
+.icon-fm-categoryfat:before { content: "\e67b";} /* 选择分类 */
+
+/*****分类图标******/
+.icon-fm-category3:before{content: "\e624"}
+.icon-fm-category5:before{content: "\e622"}
+.icon-fm-category7:before{content: "\e621"}
+.icon-fm-category2:before{content: "\e620"}
+.icon-fm-category0:before{content: "\e61f"}
+.icon-fm-category4:before{content: "\e61e"}
+.icon-fm-category1:before{content: "\e61d"}
+.icon-fm-category6:before{content: "\e67d"}
+
+/*****sale******/
+.icon-fm-saleyan:before{content: "\e60c"}
+.icon-fm-salejia:before{content: "\e607"}
+.icon-fm-saleqi:before{content: "\e60a"}
+.icon-fm-salereferenceprice:before{content: "\e67e"}
+.icon-fm-salefixedprice:before{content: "\e67f"}
+.icon-fm-salebao:before{content: "\e604"}
+.icon-fm-like:before{content: "\e661"}
+.icon-fm-likeed:before{content: "\e665"}
+/*.icon-fm-complain:before{content: "\e664"}*/
+.icon-fm-hot:before{content: "\e663"}
+.icon-fm-share:before{content: "\e662"}
+.icon-fm-multi:before{content: "\e66c"}
+.icon-fm-shield:before{content: "\e66b"} /* 有勾盾牌 */
+.icon-fm-shieldline:before{content: "\e666"} /* 线条盾牌 */
+.icon-fm-verify:before{content: "\e6f3"}
+.icon-fm-star:before{content: "\e623"}
+.icon-fm-starfullo:before{content:"\e686"}
+.icon-fm-enablereturn:before{content: "\e63a"}
+.icon-fm-freepost:before{content: "\e639"}
+.icon-fm-checkup:before{content: "\e6e6"} /*可鉴定 */
+.icon-fm-scoreArrow:before{content: "\e6f6"} /*向上箭头 */
+.icon-fm-salecert:before{content:"\e602"}  /*证书图标 */
+.icon-fm-certthick:before{content:"\e68d"}  /*证书图标 粗线*/
+.icon-fm-calendar:before{content: "\e67a"}  /*日历 */
+
+/**订单**/
+.icon-fm-applyrefund:before{content: "\e6a3"}
+.icon-fm-assess:before{content: "\e6a2"}
+.icon-fm-unsold:before{content: "\e6a1"}   /* 交易失败 哭脸 */
+.icon-fm-privateletter:before{content: "\e6a0"}  /* 私信小图标 */
+.icon-fm-privateletterthin:before{content: "\e646"}  /* 私信小图标  细线 */
+.icon-fm-telephoneimg:before{content: "\e69f"}  /*手机小图片 */
+/*.icon-fm-paid:before{content: "\e69e"}*/
+.icon-fm-delivery:before{content: "\e69d"}
+.icon-fm-deal:before{content: "\e69c"}
+.icon-fm-opensale:before{content: "\e69b"}
+.icon-fm-receipt:before{content: "\e69a"}
+/*.icon-fm-applyrefund:before{content: "\e699"}*/
+.icon-fm-heterodyne:before{content: "\e62b"}
+.icon-fm-seeorder:before{content: "\e698"}
+.icon-fm-search:before{content: "\e696"}  /*放大镜 */
+.icon-fm-notorder:before{content: "\e608"}
+.icon-fm-refund:before{content: "\e630"}  /* 申请退款 */
+.icon-fm-returning:before{content: "\e689"}  /* 退货 */
+
+.icon-fm-notexistordericon:before{content: "\e608"}  /***没有统一显示?***/
+.icon-fm-aftersale:before{ content: "\e656"}  /*   售后  */
+.icon-fm-waitdelivery:before{ content: "\e653"}  /*   待发货  */
+.icon-fm-time:before{ content: "\e653"}  /* 时间盘  */
+.icon-fm-coin:before{ content: "\e616"}  /*   金币  */
+.icon-fm-coupono:before{ content: "\e628"}  /* 优惠券  */
+
+/*****pay******/
+.icon-fm-weixin:before{ content: "\e66d"}
+.icon-fm-alipay:before{ content: "\e66e"}
+.icon-fm-bankcardlist:before{ content: "\e635"}
+.icon-fm-paybalance:before{ content: "\e633"}
+.icon-fm-dakuan:before{content: '\e634'}
+.icon-fm-qaaskpay:before{content: "\e681"} /* 学问提问费用支付  */
+.icon-fm-qalistenpay:before{content: "\e680"} /* 学问收听费用支付  */
+.icon-fm-awardcoin:before{content: "\e683"} /* 打赏  */
+.icon-fm-coins:before { content: "\e684"; } /* 金币支付  */
+.icon-fm-handicrafttext:before{content: "\e685"}  /* 匠  */
+.icon-fm-lovemoney:before{content: "\e70d"} /* 爱心捐款 */
+
+/*****category******/
+.icon-fm-filter:before{ content: "\e61b"}
+.icon-fm-filtered:before{ content: "\e626"}
+.icon-fm-thintrace:before{ content: "\e61c"}
+
+/*****other******/
+.icon-fm-nofollow:before{content: "\e636"}
+.icon-fm-404:before{content: "\e637"}
+.icon-fm-nullsale:before{content: "\e63b"}
+.icon-fm-shake:before{content: "\e63c"}
+.icon-fm-todaysale:before{content: "\e667"}
+.icon-fm-mark:before{content: "\e6b3"}
+.icon-fm-hidegoodso:before { content: "\e6a3"; }
+.icon-fm-logoicon:before { content: "\e67c"; } /* 官方小锤子 */
+
+/*****number******/
+.icon-fm-num0:before{content: "\e672"}
+.icon-fm-num1:before{content: "\e668"}
+.icon-fm-num2:before{content: "\e674"}
+.icon-fm-num3:before{content: "\e673"}
+.icon-fm-num4:before{content: "\e669"}
+.icon-fm-num5:before{content: "\e66a"}
+.icon-fm-num6:before{content: "\e676"}
+.icon-fm-num7:before{content: "\e675"}
+.icon-fm-num8:before{content: "\e677"}
+.icon-fm-num9:before{content: "\e678"}
+
+/*****wptIM******/
+.icon-fm-imAdd:before{content: "\e6d3"}
+.icon-fm-imEmoji:before{content: "\e6d4"}
+.icon-fm-imOrder:before{content: "\e6fd"}
+.icon-fm-imDelete:before{content: "\e6fe"}
+.icon-fm-imgPrint:before{content: "\e6fc"}
+
+/*****common******/
+.icon-fm-pc:before{content: "\e62e"}  /*pc**/
+/*.icon-fm-logout:before{content: "\e62f"}  !*登出**!*/
+.icon-fm-doublearrow:before{content: "\e6c2"}  /*双箭头  **/
+.icon-fm-shopicon:before { content: "\e640"; }  /*店铺图标  粗线条*/
+.icon-fm-shop:before { content: "\e62f"; }  /*店铺图标  细线条*/
+.icon-fm-custormservice:before{content: "\e690"}  /* 客服耳机**/
+/*.icon-fm-shielddisable:before{ content: "\e615"}  !*盾牌 *!*/
+.icon-fm-notice:before { content: "\e68c"; } /*通知喇叭*/
+.icon-fm-scan:before { content: "\e688"; } /*扫一扫*/
+.icon-fm-copy:before { content: "\e692"; } /*复制*/
+.icon-fm-level:before{ content:"\e706";}  /*等级小图标*/
+
+.icon-fm-arrowright:before{content: "\e629"} /*右箭头  > */
+.icon-fm-square:before{content: "\e60e"}/*正方形  □ */
+.icon-fm-square2:before{content: "\e695"}
+.icon-fm-square-o:before{content: "\e682"}/*正方形  □ */
+.icon-fm-circle:before{ content: "\e627"}
+.icon-fm-historyicon:before{ content: "\e661"}
+.icon-fm-sellout:before{ content: "\e6f0"}
+.icon-fm-allowdisturb:before{content: "\e670"}   /*允许消息**/
+.icon-fm-notallowdisturb:before{content: "\e66f"}  /*禁止消息**/
+.icon-fm-address:before{content: "\e609"}  /*address 图标**/
+.icon-fm-qrcode:before{content: "\e643"}  /* 二维码小图标**/
+
+.icon-fm-warning:before{ content: "\e6b2"}  /*顿号  ! */
+.icon-fm-circle-o:before{ content: "\e671"}  /*顿号  圆 */
+.icon-fm-selected:before{ content: "\e613"} /*勾勾   ✔️*/
+.icon-fm-question:before{ content: "\e632"}  /*问号  ? */
+.icon-fm-addicon:before{ content: "\e625"}  /*加号  + */
+.icon-fm-video:before{ content: "\e687"}  /*加号  video */
+.icon-fm-more:before{ content: "\e631"}  /*更多  ... */
+.icon-fm-delete:before{ content: "\e6b5"}  /*删除  垃圾箱*/
+.icon-fm-edit:before{ content: "\e658"}  /*编辑 */
+.icon-fm-setting:before{ content: "\e605"}  /* 设置 */
+.icon-fm-attention:before{ content: "\e69e"}  /* 提醒 i */
+.icon-fm-menu:before { content: "\e60d"; } /* 三横  三*/
+.icon-fm-member-vip:before{content: "\e6c6"} /* 会员专享*/
+.icon-fm-couponShop:before{content: "\e6c7"} /* 店铺券*/
+.icon-fm-couponPt:before{content: "\e6c8"} /* 平台券*/
+/* IM用户端图标 */
+.icon-fm-imAdd:before{content: "\e6d3"} /* 加号 */
+.icon-fm-imEmoji:before{content: "\e6d4"} /* 表情 */
+.icon-fm-imOrder:before{content: "\e6fd"} /* 订单 */
+.icon-fm-imDelete:before{content: "\e6fe"} /* 删除 */
+.icon-fm-imgPrint:before{content: "\e6fc"} /* 图片 */
+
+/************买家等级*****************************************************/
+.buyerLevel{
+    background-color: #E0B176;
+    display: inline-block;
+    width: 50px;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 8px;
+    color: #FFF;
+    font-size: 27rpx;
+}
+
+.buyerMemberLv0:after{ content: "\e693";}
+.buyerMemberLv1:after{ content: "\e6a5";}
+.buyerMemberLv2:after{ content: "\e699";}
+.buyerMemberLv3:after{ content: "\e6b9";}
+.buyerMemberLv4:after{ content: "\e694";}
+.buyerMemberLv5:after{ content: "\e6a4";}
+.buyerMemberLv6:after{ content: "\e6a7";}
+.buyerMemberLv7:after{ content: "\e6ae";}
+.buyerMemberLv8:after{ content: "\e6b4";}
+.buyerMemberLv9:after{ content: "\e6b0";}
+.buyerMemberLv10:after{ content: "\e6b6";}
+
+.buyerLevel.lv1:before{ content: "\e6b8";} /* 白丁*/
+.buyerLevel.lv2:before{ content: "\e6ba";} /* 童生*/
+.buyerLevel.lv3:before{ content: "\e6bc";} /* 秀才*/
+.buyerLevel.lv4:before{ content: "\e6b7";} /* 举人*/
+.buyerLevel.lv5:before{ content: "\e6bb";} /* 进士*/
+.buyerLevel.lv6:before{ content: "\e6bf";} /* 状元*/
+.buyerLevel.lv7:before{ content: "\e6bd";} /* 学士*/
+.buyerLevel.lv8:before{ content: "\e6be";} /* 侍郎*/
+.buyerLevel.lv9:before{ content: "\e6c1";} /* 尚书*/
+.buyerLevel.lv10:before{ content: "\e6c0";} /* 太傅*/
+.buyerLevel.lv11:before{ content: "\e6c4";} /* 君王*/
+.buyerLevel.lv12:before{ content: "\e6c3";} /* 圣贤*/
+
+
+.icon-empty:before { content: "\e667"; }
+
+

@@ -1,0 +1,9 @@
+<!-- <template name="price"> -->
+<view class="tip">
+	<view class="tipmain" animation="{{TipAnimation}}">
+			<rich-text nodes="{{tipshowText}}" bindtap="tap"></rich-text>
+	</view>
+
+</view>
+<!-- </template> -->
+
